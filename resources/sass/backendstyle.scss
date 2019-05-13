@@ -1,0 +1,465 @@
+@import "abstracts/variables";
+/*backEndHeader*/
+.loginName{
+    width:100%;
+    text-align: center;
+    padding:10px;
+
+ b{
+    color:#fff;
+}
+}
+.headBackAndDashboard{
+    width:100%;
+    height: 40px;
+    background-color: #36DBBA;
+}
+.headBackAndDashboard a{
+    color: #ffffff!important;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    margin:1em;
+
+}
+.dropdown-toggle{
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+    color: #fff;
+    font-weight: bold;
+}
+.sideNavBackend .person .fa-user-circle{
+    color: #fff;
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
+    margin-top: 2vw;
+
+
+
+}
+.sideNavBackend {
+    background-color: #36DBBA;//#36DBBA #2fd0b0
+    position: fixed;
+    height: 100%;
+    float: left;
+    border-right: 3px solid #2fd0b0
+}
+.links ul li:hover{
+    background-color: #5dd0b9!important;
+}
+
+.links ul li.row{
+    background-color: #2fd0b0;
+    width: 100%;
+    margin-top:20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 1px 2px 1px #34c7aa;
+    margin-right: 0px;
+    float: left;
+
+ a{
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    }
+
+
+}
+
+
+
+/*EndOfBackHeader*/
+
+
+/*backEndBody*/
+.feedbackBox {
+    margin-top: 10px;
+}
+
+.templateGroup {
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #e8e8e8cc;
+    box-shadow: 1px 2px 2px 2px #f5f5f5;
+}
+
+.recentContainer{
+    width: 65em;
+    margin-top: 3vw;
+    float: left;
+    margin-left: 11vw;
+    // margin-left: 3vw;
+}
+.titleHead{
+    border-bottom: 3px solid #efefef;
+}
+.headerRowDescription{
+    width:100%;
+
+     p{
+        float: left;
+        width:25%;
+        margin-top: 1vw;
+    }
+
+}
+.navItem{
+    float:left;
+}
+.recentRow{
+    width:100%;
+
+
+    .recent{
+        float: left;
+        width: 100%;
+        
+    }
+    .recentRating{
+        clear: both;
+    }
+}
+/*bodybackendcliënten*/
+.col-sm-8 h1{
+    color:#dcdcdc;
+}
+.containerBackEndCliënten{
+    border: 0.5px solid #e8e8e8cc;
+    border-radius: 10px 10px 10px 10px;
+    width: 30%;
+    margin: 16px;
+    box-shadow: 1px 2px 2px 2px #f5f5f5;
+    overflow: hidden;
+    .col-sm-6{
+        width: 100%;
+    }
+
+    a{
+        color: $teal;
+        font-weight: bold;
+        font-size: 20px;
+        float: left;
+        width: 5vw;
+    
+    }
+}
+.wrapperBackendHomepage{
+    border: 0.5px solid #e8e8e8cc;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    margin: 16px;
+    box-shadow: 1px 2px 2px 2px #f5f5f5;
+    overflow: hidden;
+    padding:20px;
+}
+.titleBackendHomepage{
+    color: $teal;
+    font-weight: bold;
+    font-size: 20px;
+}
+.subBackendHomepage{
+    color: $darkGrey;
+    font-weight: 400;
+    font-size: 17px;
+}
+a.achievementLink{
+    color: $white;
+    color: #ffffff;
+    width: 2vw;
+    background-color: #36DBBA;
+    float: right;
+    margin: 0vw 0vw 0vw 0.9vw;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 0.9vw;
+}
+
+
+a.achievementLink:hover{
+    color: $white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.achievement p{
+    float: left;
+    padding:2vw;
+}
+.achievement img{
+    width:100%;
+    height:auto;
+}
+
+.iconPersons i{
+    color: #36DBBA;
+    font-size: 25px;
+    margin-top: 4vw;
+}
+.wrapperSubdoelenAchievement{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 2px 2px 2px #f5f5f5;
+    height: auto;
+    float: left;
+    margin-bottom: 3vw;
+    margin-right: 3vw;
+
+    .col-sm-6{
+        max-width: 100%;
+
+        a{
+            color:$teal;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}
+.wrapperUserFeedback{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 2px 2px 2px #f5f5f5;
+    height: auto;
+    float: left;
+    margin-bottom: 3vw;
+    margin-right: 3vw;
+    padding:2vw;
+}
+.wrapperIcons{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 3vw;
+    margin-right: 3vw;
+    padding:2vw;
+    .col-sm-2{
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 1px 2px 2px 2px #f5f5f5;
+        padding: 1vw;
+        margin: 10px;
+    }
+    i{
+        color:$teal;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    }
+
+}
+.containerIconEdit{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 2px 2px 2px #f5f5f5;
+    float: left;
+    margin-bottom: 3vw;
+    padding:2vw;
+
+    i{
+        color: $teal!important;
+    }
+}
+.wrapperIconLinks{
+    float: left;
+}
+.achievement{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 2px 2px 2px #f5f5f5;
+    float: left;
+    margin-bottom: 3vw;
+    overflow: hidden;
+}
+.usersAchievement{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 2px 2px 2px #f5f5f5;
+    float: left;
+    margin-bottom: 3vw;
+    h4{
+        background-color: $teal;
+        color:$white;
+        border-radius: 10px 10px 0px 0px;
+        text-align: center;
+        margin-bottom: 0px;
+        float: left; 
+        padding:10px;
+        width:100%;
+    }
+    p{
+        padding:10px;
+    }
+    form{
+        margin:2vw;
+    }
+}
+.wrapperCreateAchievement{
+    width:65vw;
+
+    .col-sm-3{
+        float: left;
+        margin-right: 3vw;
+    }
+}
+.achievement h4{
+    background-color: $teal;
+    color:$white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.medal {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+.medal img{
+    width:2vw;
+    height:auto;
+    float: left;
+}
+.wrapperUserInfo{
+    float: left;
+    width:100%;
+a{
+    width: 30vw;
+    margin-top:4vw;
+}
+p{
+    width:10vw;
+}
+}
+.wrapperPrint{
+width: 20vw;
+float: left;
+    a{
+        float: left;
+        margin-bottom: 20px;
+    }
+
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #34c7aa;
+    border-color: #34c7aa;
+    float:left;
+    margin: 10px;
+}
+.btn-change{
+    color: #ffffff;
+    background-color: #6666ff;
+    border-color: #4c4cff;
+    float:left;
+    margin: 10px;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+.btn-primary:hover{
+    background-color: #28ad93;
+    border-color: #28ad93; 
+}
+.btn-danger{
+    float: left;
+    margin: 10px;
+}
+.btn-back{
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: #545454;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+
+    a{
+        color:#545454;
+    }
+    a:hover{
+        color:$teal;
+        text-decoration: none!important;
+    }
+}
+
+
+.form-control {
+    background-color: #f5f5f5!important;
+}
+input[type="radio"].iconSelectedTrue{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #e9ecef;
+    color: #fff;
+    top: 1px;
+    height: 1vw;
+    width: 1vw;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+}
+input[type="radio"].iconSelectedTrue:checked{
+       background-color: #36dbba;
+    border: 2px solid #34c7aa;
+}
+
+.iconSelected{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #e9ecef;
+    color: #fff;
+    top: 1px;
+    height: 1vw;
+    width: 1vw;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+}
+input[type="radio"].iconSelected:checked{
+    background-color: #36dbba;
+    border: 2px solid #34c7aa;
+}
+.containerIconEdit{
+    .fa{
+        color:#495057;
+    }
+}
+/*endBodyBackendCliënten*/
+/*EndOfBackBody*/
+
+
+/*footerBackend*/
+.LogoBackendFooter{
+    width: 100%;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 30px 10px 10px 37px;
+}
+.LogoBackendFooter img{
+    width: 7vw;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #ffffff;
+    background-color: $teal;
+    border-color: $teal;
+}
+.page-link{
+    color:$teal;
+}
+/*EndFooterBackend*/

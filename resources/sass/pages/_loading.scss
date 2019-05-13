@@ -1,0 +1,69 @@
+/* Settings */
+
+//General
+.animation-preloader {
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: height;
+  width: 100%;
+  height: 100%;
+  animation: rotat 4s cubic-bezier(.31, .15, .15, .31);
+
+
+  .logo-preloader {
+    width: 40%;
+    height: 40%;
+
+    @keyframes rotat {
+      0% {
+        transform: perspective(700px) rotateY(0deg) rotateX(0deg);
+      }
+      50% {
+        color: #242424;
+        transform: perspective(800px) rotateY(-180deg) rotateX(90deg);
+      }
+      100% {
+        transform: perspective(700px) rotateY(-360deg) rotateX(0deg);
+      }
+    }
+
+  }
+
+}
+
+//Media queries
+@media (max-width: 1200px) {
+  .animation-preloader {
+    margin-top: 35%;
+  }
+
+}
+
+
+
+@media (max-width: 992px) {
+  .animation-preloader {
+    margin-top: 40%;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+  .animation-preloader {
+    margin-top: 55%;
+
+  }
+
+}
+
+@media (max-width: 576px) {
+  .animation-preloader {
+    margin-top: 65%;
+  }
+
+}
+

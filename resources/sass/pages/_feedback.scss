@@ -1,0 +1,127 @@
+/* Feedback */
+
+//General
+
+.feedback-page {
+  margin-left: 20px;
+
+  .far {
+    color: $teal;
+    font-size: 40px;
+  }
+
+  p {
+    margin-left: 10px;
+    font-family: $font-family-opensans;
+    font-size: 16px;
+    color: $mediumGrey;
+  }
+}
+
+.margin-feedback {
+  margin-bottom: 45px;
+  display: block;
+}
+
+.label {
+  display: inline-block;
+  text-decoration: none;
+  color: $mediumGrey;
+  border: 1px solid $green;
+  padding: 7px 15px 7px 15px;
+  border-radius: 15px;
+  font-family: $font-family-opensans;
+  height: 100%;
+  max-width: 275px;
+  font-size: 14px;
+
+  .fas {
+    font-size: 14px;
+  }
+
+}
+
+//.label:hover {
+//  text-decoration: none;
+//  color: $mediumGrey;
+//}
+
+.readmore {
+  margin-left: 85px;
+  display: block;
+  text-decoration: none;
+  color: $Grey;
+
+}
+
+.readmore:hover {
+  text-decoration: none;
+  color: $mediumGrey;
+
+}
+
+.readmore-overview {
+  margin-left: 15px;
+  display: block;
+  text-decoration: none;
+  color: $Grey;
+
+}
+
+.readmore-overview:hover {
+  text-decoration: none;
+  color: $mediumGrey;
+
+}
+
+
+//Media queries
+@media (max-width: 1200px) {
+
+}
+
+
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 768px) {
+
+  .feedback-page {
+    position: relative;
+    margin: 0;
+  
+    .far {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    p {
+      margin: 60px 0 0 0;
+      padding: 0;
+    }
+  }
+
+  .label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+  }
+
+  .readmore {
+    margin: 10px 0 0 0;
+  
+  }
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 476px){
+
+}

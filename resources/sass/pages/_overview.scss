@@ -1,0 +1,447 @@
+/* Overview */
+
+//General
+.body-container {
+  padding: 120px 0 100px 0;
+}
+
+.maingoal-icon {
+  font-size: 50px;
+}
+
+.kop-text {
+  font-family: $font-family-montserrat;
+  font-size: 25px;
+  color: #545454;
+  margin-top: 50px;
+}
+
+hr {
+  border-top: 2px solid #B2B2B2;
+  border-radius: 10px;
+  margin-bottom: 45px;
+}
+
+.maingoal {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 550px;
+  width: 145px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  padding: 0;
+  position: relative;
+
+  p {
+    font-family: $font-family-opensans;
+    font-size: 16px;
+    padding-top: 20px;
+    word-break: break-all;
+  }
+
+  .fas, .far {
+    font-size: 40px;
+  }
+}
+
+.margin-carousel {
+  margin-left: 20px;
+}
+
+.margin-maingoal {
+  margin-left: 30px;
+}
+
+.maingoal-barcontent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.vertical-align {
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-image: $lemonGradient;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.goalbutton {
+  background-color: $irisBlue;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fas {
+    font-size: 25px;
+  }
+}
+
+.carousel-control-prev-icon {
+  background-image: none;
+  margin-left: -45px;
+
+}
+
+.carousel-control-next-icon {
+  background-image: none;
+  margin-right: -45px;
+}
+
+.carousel-control-next-icon:after {
+  content: '';
+}
+
+.carousel-control-prev-icon:after {
+  content: '';
+}
+
+.fa-angle-double-left, .fa-angle-double-right {
+  font-size: 40px;
+  color: $mediumGrey;
+}
+
+.overview-col-left {
+  padding: 0 30px 0 15px;
+}
+
+.overview-col-right {
+  padding: 0 15px 0 30px;
+}
+
+.feedback {
+  .margin-feedback-thumb {
+    margin-top: 20px;
+  }
+
+  .far {
+    color: $teal;
+    font-size: 35px;
+    padding: 0;
+  }
+
+  p {
+    font-family: $font-family-opensans;
+    font-size: 16px;
+    color: $Grey;
+  }
+
+  .labeloverview {
+    display: inline-block;
+    text-decoration: none;
+    color: $mediumGrey;
+    border: 1px solid $green;
+    padding: 7px 15px 7px 15px;
+    border-radius: 15px;
+    font-family: $font-family-opensans;
+    height: 100%;
+    max-width: 275px;
+    font-size: 14px;
+  
+    .fas {
+      font-size: 14px;
+    }
+  
+  }
+}
+
+.achievements {
+  
+  .box-img {
+    width: 100%;
+    margin: 0;
+
+    .img {
+      height: 150px;
+      width: 150px;
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+
+    .img2 {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: contain;
+      object-fit: contain;
+      opacity: 0.5;
+    }
+  }
+
+  p {
+    font-family: $font-family-opensans;
+    font-size: 16px;
+    color: $mediumGrey;
+  }
+}
+
+
+.button {
+  margin-top: 25px;
+  display: inline-block;
+  text-decoration: none;
+  color: $mediumGrey;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  font-family: $font-family-opensans;
+  background-color: white;
+  border: none;
+  transition: all 0.5s ease-out;
+
+  .fas {
+    font-size: 14px;
+  }
+}
+
+.button:hover {
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+  color: $white;
+  background-color: $teal;
+  opacity: 0.8;
+}
+
+
+#carousel {
+  display: block;
+}
+
+#carouselMobile {
+  display: none;
+}
+
+//Media queries
+@media (max-width: 1200px) {
+  .kop-text {
+    font-size: 22px;
+    margin-top: 85px;
+  }
+
+  .maingoal {
+    height: 475px;
+    width: 115px;
+
+    p {
+      font-size: 14px;
+    }
+
+    .fas, .far {
+      font-size: 28px;
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  
+  #carousel {
+    display: none;
+  }
+
+  #carouselMobile {
+    display: block;
+  }
+  
+  .margin-carousel {
+    margin-left: 74px;
+  }
+
+  .maingoal {
+    height: 450px;
+    width: 200px;
+
+    p {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 13px;
+    }
+
+    .fas, .far {
+      font-size: 25px;
+    }
+  }
+
+  .margin-maingoal {
+    margin-left: 30px;
+  }
+
+  .goalbutton {
+    margin-top: 1px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+
+    .fas {
+      font-size: 20px;
+    }
+  }
+
+  .overview-col-left {
+    padding: 0 15px 0 15px;
+  }
+  
+  .overview-col-right {
+    padding: 0 15px 0 15px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .achievements {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .margin-carousel {
+    margin-left: 50px;
+  }
+
+  .maingoal {
+    height: 450px;
+    width: 200px;
+
+    p {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 13px;
+    }
+
+    .fas, .far {
+      font-size: 25px;
+    }
+  }
+
+  .margin-maingoal {
+    margin-left: 30px;
+  }
+
+  .goalbutton {
+    margin-top: 1px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+
+    .fas {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .achievements {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .margin-carousel {
+    margin-left: 65px;
+  }
+
+  .maingoal {
+    height: 400px;
+    width: 93px;
+
+    p {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 13px;
+    }
+
+    .fas, .far {
+      font-size: 25px;
+    }
+  }
+
+  .margin-maingoal {
+    margin-left: 30px;
+  }
+
+  .goalbutton {
+    margin-top: 1px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+
+    .fas {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 476px){
+  .achievements {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .fa-angle-double-left , .fa-angle-double-right {
+    font-size: 25px;
+  }
+
+  .margin-carousel {
+    margin-left: 40px;
+  }
+
+  .maingoal {
+    height: 250px;
+    width: 75px;
+
+    p {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 12px;
+    }
+
+    .fas, .far {
+      font-size: 25px;
+    }
+  }
+
+  .margin-maingoal {
+    margin-left: 10px;
+  }
+
+  .goalbutton {
+    margin-top: 2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+
+    .fas {
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,1398 @@
+body {
+  padding-bottom: 50px;
+}
+
+.fontawesome-icon {
+  font-family: 'Font Awesome 5 Brands Regular', sans-serif;
+  font-style: normal;
+}
+
+
+$body-bg: $background-color;
+
+//BackandDashboard
+header.headBackAndDashboard{
+  background-image: $lemonGradient;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 99;
+}
+
+.headBackAndDashboard a{
+  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: $white!important;
+  margin: 30px;
+}
+
+.containerBackendIndex{
+  width: 50vw;
+  background: $body-bg;
+  text-align: center;
+}
+
+.icondiv {
+  float: left;
+  margin: 25px;
+}
+
+.icondiv {
+  float: left;
+  margin: 25px;
+}
+
+//sidenav backend
+.sideNavBackend {
+  background-color: $navColor;
+  position: fixed;
+  height: 100%;
+  float: left;
+
+  .person {
+    margin-top: 125px;
+
+    p {
+      font-size: 35px;
+      font-family: $font-family-montserrat;
+      color: $Grey;
+      text-align: center;
+      word-break: break-all;
+    }
+
+    .fa-user {
+      font-size: 100px;
+      color: #55D6DB;
+      display: block;
+      background: -webkit-linear-gradient(#55D6DB, #36DBBA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .links {
+    padding-top: 20px;
+
+    ul {
+      padding: 0 0 0 30px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $Grey;
+      font-size: 25px;
+
+      :hover {
+        color: $mediumGrey;
+
+      }
+    }
+  }
+}
+
+.backend-content-right {
+  padding: 50px 25px;
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+}
+
+.user-data-container {
+  margin: 30px 0 0 0;
+
+  hr {
+    margin-top: 1px;
+    border-top: 1px solid $black;
+  }
+
+  .col-sm-6 {
+    margin: 0;
+    padding: 0 60px 0 0;
+  }
+
+  .col-sm-12 {
+    margin: 0;
+    padding: 0 0 60px 0;
+
+    .row {
+      margin: 0;
+
+      .col-sm-4 {
+        padding: 0;
+      }
+
+    }
+
+  }
+
+  .column-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+//frontend
+.maingoal-icon {
+  font-size: 50px;
+}
+
+.kop-text {
+  font-family: $font-family-montserrat;
+  font-size: 25px;
+  color: #545454;
+  margin-top: 100px;
+}
+
+hr {
+  border-top: 2px solid #B2B2B2;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.maingoal {
+  height: 550px;
+  width: 200px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  padding: 0;
+  position: relative;
+
+  p {
+    font-family: $font-family-opensans;
+    font-size: 20px;
+    padding-top: 20px;
+    word-break: break-all;
+  }
+
+  .fas, .far {
+    font-size: 40px;
+  }
+}
+
+.margin-maingoal {
+  margin-left: 25px;
+}
+
+.maingoal-barcontent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.vertical-align {
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+ background-image: $lemonGradient;
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.goalbutton {
+  background-color: $irisBlue;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fas {
+    font-size: 25px;
+  }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '';
+}
+
+.carousel-control-prev-icon:after {
+  content: '';
+}
+
+.feedback {
+  .far {
+    color: $teal;
+    font-size: 40px;
+  }
+
+  p {
+    font-family: $font-family-opensans;
+    font-size: 16px;
+    color: $Grey;
+  }
+}
+
+.achievements {
+  .box-img {
+    height: 120px;
+    width: 120px;
+
+    .img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+
+    .img2 {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: contain;
+      object-fit: contain;
+      opacity: 0.5;
+    }
+  }
+
+  p {
+    font-family: $font-family-opensans;
+    font-size: 16px;
+    color: $mediumGrey;
+  }
+}
+
+.fa-angle-double-left, .fa-angle-double-right {
+  font-size: 40px;
+  color: $mediumGrey;
+}
+
+.margin-subgoal {
+  margin-bottom: 45px;
+}
+
+.goalbutton-sub {
+  background-color: $irisBlue;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  span {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fas {
+    font-size: 25px;
+  }
+}
+
+.subgoal {
+  border-radius: 2px 20px 20px 20px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+
+  p {
+    margin: 20px 0 20px 20px ;
+    font-size: 18px;
+    color: $darkGrey;
+  }
+
+  hr {
+    border-top: 1px solid #dddddd;
+    border-radius: 10px;
+    margin-bottom: 2px;
+  }
+
+  .row {
+    p {
+      color: #B2B2B2;
+    }
+
+    .assignment {
+      margin-top: 20px;
+      color: #B2B2B2;
+      font-size: 22px;
+
+      a {
+        color: #B2B2B2;
+
+        :hover {
+          color: $teal;
+        }
+      }
+
+      .far-marging {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+.achievement-page {
+  div {
+    width: 100%;
+  }
+
+  .box-img {
+    height: 225px;
+    width: 225px;
+
+    .img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+  }
+
+  p {
+    font-family: $font-family-opensans;
+    font-size: 18px;
+    color: $mediumGrey;
+    text-align: center;
+  }
+}
+
+.settings {
+  .user {
+    background-color: $teal;
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    span {
+      text-decoration: none;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .fas {
+      font-size: 100px;
+    }
+  }
+
+  form {
+    margin-top: 40px;
+
+    input {
+      border: 2px solid $lightGrey;
+      border-radius: 20px;
+      color: $lightGrey;
+    }
+
+    label {
+      font-size: 18px;
+      color: $Grey;
+    }
+
+    .password {
+      margin-top: 25px;
+    }
+
+    input[type=submit] {
+      margin-top: 25px;
+      color: $Grey;
+      background-color: white;
+    }
+
+    input[type=submit]:hover {
+      background-color: #ededed;
+    }
+  }
+
+  .key {
+    font-size: 20px;
+    color: $mediumGrey;
+
+    p {
+      margin-top: -30px;
+    }
+  }
+}
+
+@media (max-width: 1650px ) {
+  .sideNavBackend{
+    .person {
+      p {
+        font-size: 30px;
+      }
+
+      .fa-user {
+        font-size: 80px;
+      }
+    }
+
+    .links {
+      padding-top: 20px;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px ) {
+  .sideNavBackend{
+    .person {
+      p {
+        font-size: 25px;
+      }
+
+      .fa-user {
+        font-size: 70px;
+      }
+    }
+
+    .links {
+      padding-top: 20px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 992px) {
+  .achievement-page {
+    .box-img {
+      height: 200px;
+      width: 200px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .maingoal {
+    height: 500px;
+    width: 150px;
+
+    p {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 18px;
+    }
+
+    .fas, .far {
+      font-size: 30px;
+    }
+  }
+
+  .margin-maingoal {
+    margin-left: 15px;
+  }
+
+  .goalbutton {
+    margin-top: 450px;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+
+    .fas {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .goalbutton-sub {
+    height: 50px;
+    width: 50px;
+
+    .fas {
+      font-size: 20px;
+    }
+  }
+
+  .achievement-page {
+    .box-img {
+      height: 150px;
+      width: 150px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .achievements {
+    .box-img {
+      height: 110px;
+      width: 110px;
+    }
+
+    p {
+      margin-top: 25px;
+      font-size: 16px;
+    }
+  }
+
+
+  .margin-carousel {
+    margin-left: 85px;
+  }
+
+  .maingoal {
+    height: 450px;
+    width: 120px;
+
+    p {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 14px;
+    }
+
+    .fas, .far {
+      font-size: 25px;
+    }
+  }
+
+  .margin-maingoal {
+    margin-left: 10px;
+  }
+
+  .goalbutton {
+    margin-top: 400px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+
+    .fas {
+      font-size: 20px;
+    }
+  }
+
+}
+
+@media (max-width: 576px){
+  .goalbutton-sub {
+    height: 45px;
+    width: 45px;
+
+    .fas {
+      font-size: 20px;
+    }
+  }
+
+  .subgoal {
+    p {
+      font-size: 16px;
+    }
+
+    .row .assignment .far-marging {
+      padding-left: 10px;
+    }
+  }
+
+  .achievement-page {
+    .box-img {
+      height: 125px;
+      width: 125px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .achievements {
+    .box-img {
+      height: 95px;
+      width: 95px;
+    }
+
+    p {
+      margin-top: 25px;
+      font-size: 16px;
+    }
+  }
+
+  .margin-carousel {
+    margin-left: 85px;
+  }
+
+  .maingoal {
+    height: 375px;
+    width: 100px;
+
+    p {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 14px;
+    }
+
+    .fas, .far {
+      font-size: 25px;
+    }
+  }
+
+  .margin-maingoal {
+    margin-left: 10px;
+  }
+
+  .goalbutton {
+    margin-top: 325px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+
+    .fas {
+      font-size: 20px;
+    }
+  }
+
+}
+
+@media (max-width: 576px){
+  .goalbutton-sub {
+    height: 40px;
+    width: 40px;
+
+    .fas {
+      font-size: 15px;
+    }
+  }
+
+  .subgoal {
+    p {
+      margin: 10px 0 10px 10px;
+      font-size: 16px;
+    }
+
+    .row {
+      p {
+        font-size: 14px;
+      }
+
+      .assignment {
+        margin: 5px 0 10px 10px;
+
+        .far-marging {
+        padding-left: 5px;
+        }
+      }
+    }
+  }
+
+  .settings {
+    .user {
+      height: 150px;
+      width: 150px;
+
+      .fas {
+        font-size: 75px;
+      }
+    }
+
+    form {
+      label {
+        font-size: 16px;
+        color: $Grey;
+      }
+    }
+  }
+
+  .achievement-page {
+    .box-img {
+      height: 100px;
+      width: 100px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .achievements {
+    .box-img {
+      height: 85px;
+      width: 85px;
+    }
+
+    p {
+      margin-top: 25px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 476px){
+  .goalbutton-sub {
+    height: 40px;
+    width: 40px;
+
+    .fas {
+      font-size: 15px;
+    }
+  }
+
+  .subgoal {
+    p {
+      margin: 5px 0 5px 5px;
+      font-size: 16px;
+    }
+
+    .row {
+      p {
+        font-size: 14px;
+      }
+
+      .assignment {
+        margin-top: 5px;
+        font-size: 18px;
+        margin-left: 5px;
+
+        .far-marging {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+
+  .margin-carousel {
+    margin-left: 50px;
+  }
+
+  .fa-angle-double-left , .fa-angle-double-right {
+    font-size: 25px;
+  }
+
+  .maingoal {
+    height: 250px;
+    width: 75px;
+
+    p {
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 9px;
+    }
+
+    .fas, .far {
+      font-size: 25px;
+    }
+  }
+
+  .margin-maingoal {
+    margin-left: 10px;
+  }
+
+  .goalbutton {
+    margin-top: 220px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+
+    .fas {
+      font-size: 10px;
+    }
+  }
+}
+
+
+.recentContainer{
+  width: 100%;
+  float: left;
+  margin-left: 33px;
+  margin-top: 100px;
+}
+
+
+p.RowDescripionOne {
+  width: 68%;
+}
+
+.recentContainer h1{
+  float: left;
+    margin-left: 18px;
+    margin-bottom: 40px;
+}
+.headerRowDescription{
+  width: 100%;
+  float: left;
+}
+.headerRowDescription p {
+  float: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+.recent{
+  width: 100%;
+  float: left;
+}
+
+.recentRating{
+  float: left;
+  width: 35%;
+  text-align: left;
+  max-height: 44px;
+  overflow: hidden;
+}
+
+.recentLink{
+  float: left;
+  color: $linkColor;
+  margin-left:20px;
+}
+
+.recentRow{
+  margin-top: 7vw;
+}
+
+.recentClienten{
+  float: left;
+    width: 45%;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 21px;
+    box-shadow: 0px 0px 5px 1px #e4e4e4;
+}
+
+.recentClienten p{
+  text-align: center;
+}
+
+.linkLookAlClients{
+  float: right;
+  color:$linkColor ;
+  margin-top: 17px;
+}
+.titleHead{
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  float: left;
+}
+
+
+body {
+  font-family: $font-family-opensans;
+}
+
+
+.recentContainer{
+  width: 100%;
+  float: left;
+
+}
+.recentContainer h1{
+  float: left;
+}
+.recent{
+  width: 100%;
+  float: left;
+  padding: 0;
+}
+.recentRating{
+  float: left;
+  width: 35%;
+  text-align: left;
+  max-height: 44px;
+  overflow: hidden;
+  padding: 0;
+
+}
+.recentLink{
+  float: left;
+  color: $linkColor;
+  margin-left:20px;
+  padding: 0;
+  text-align: right;
+
+
+}
+.recentRow{
+  margin-top: 7vw;
+}
+.recentClienten{
+  float: left;
+    width: 45%;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 21px;
+    box-shadow: 0px 0px 5px 1px #e4e4e4;
+}
+.recentClienten p{
+  text-align: center;
+}
+//.person p{
+//  margin-top: 76px;
+//  text-align: center;
+//}
+
+.linkLookAlClients{
+  float: right;
+  color:$linkColor ;
+  margin-top: 17px;
+}
+.titleHead{
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  float: left;
+}
+
+
+body {
+  font-family: $font-family-opensans;
+}
+
+.navbar {
+  background-image: $lemonGradient;
+  border-bottom-left-radius: 80px;
+  z-index: 500;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  float: left;
+}
+
+.navbar .nav-top {
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+
+.nav-bottom {
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  display: none;
+}
+
+#username-display {
+  display: none;
+}
+
+#pagename-display {
+  display: none;
+}
+
+.nav-bottom-divider {
+  display: none;
+}
+
+.navbar .navbar-content-right {
+  display: flex;
+}
+
+.navbar-light .navbar-brand {
+  color: $white;
+  z-index: 1000;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: $white;
+}
+
+.navbar-nav {
+  display: block;
+}
+
+.navbar a {
+  color: $white;
+}
+
+.navbar .back-button {
+  margin-right: 20px;
+}
+
+.dropdown {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  color: $black;
+}
+
+.navbar h4 {
+  color: $white;
+  font-weight: bold;
+  font-family: $font-family-montserrat;
+}
+
+.navbar h5 {
+  color: $white;
+}
+
+.navbar h4 i {
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: $white;
+}
+
+.doel-info {
+  font-size: 1rem;
+}
+
+.h5-bold {
+  font-weight: bold;
+}
+
+.doel-datum {
+  margin-left: 10px;
+}
+
+.nav-award-details, .nav-award-details1, .nav-award-details2 {
+  display: none;
+  padding: 7px 0 30px 0;
+  width: 100%;
+}
+
+.award-middle {
+  display: flex;
+} 
+
+.award-middle img {
+  width: 300px;
+  height: 300px;
+}
+
+.award-text {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.award-text div {
+
+}
+
+#menu, #mobile_ul {
+  display: none;
+}
+
+@media (min-width: 768px){
+
+  .navbar-expand-md > .container,
+  .navbar-expand-md > .container-fluid {
+    flex-wrap: wrap;
+  }
+
+  .navbar-expand-md .navbar-nav {
+    flex-direction: column;
+  }
+
+  //BackandStyling
+
+//Temporarily
+
+  .userbox {
+    border-radius: 18px;
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0px 1px 6px 1px #e8e4e4cc;
+  }
+}
+.iconPersons i{
+  color: #3dd9c2;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 767px){
+.titleHead h1{
+  height: 86px;
+}
+
+.navbar {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+  .navbar .navbar-content-right {
+    position: relative;
+}
+
+  .navbar-nav, .dropdown {
+    display:  none;
+  }
+
+  .navbar-brand {
+    margin: 0 auto;
+}
+
+  .nav-bottom {
+    height: 120px;
+    margin: 30px 0 0 0;
+}
+
+  #username-display {
+    margin: 0 auto;
+  }
+
+  #pagename-display {
+    margin: 0 auto;
+  }
+
+  .nav-award-details, .nav-award-details1, .nav-award-details2 {
+    margin-top: 30px;
+  }
+
+  .nav-award-divider {
+    position: inherit;
+    display: flow-root;
+  }
+
+  .nav-bottom-divider {
+    width: 100%;
+  }
+
+  .navbar .back-button {
+    position: absolute;
+    top: 14px;
+  }
+
+  #hoofddoel-display {
+    margin: 0 auto;
+  }
+
+  .inprogress, .finished {
+    justify-content: center;
+  }
+
+  .award-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .award-middle img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .award-text {
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  #mobile_ul {
+    position: fixed;
+    z-index: 550;
+    width: 100%;
+    height: 100%;
+    background-image: $lemonGradient;
+    padding: 100px 0 0 0;
+    top: -100%;
+    left: 0;
+    transition: all 1s;
+    -moz-transition: all 1s; /* Firefox 4 */
+    -webkit-transition: all 1s; /* Safari and Chrome */
+    -o-transition: all 1s; /* Opera */
+
+    display: block;
+  }
+
+  #mobile_ul li {
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+      font-size: 1.2rem;
+  }
+
+  #mobile_ul li a {
+      width: 100%;
+  }
+
+  #mobile_ul li:hover {
+      background-color: #ECECEC;
+  }
+
+  #menu {
+    position: absolute;
+    height: 100%;
+    right: 50px;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #menuToggle
+  {
+      width: 35px;
+      height: 35px;
+      z-index: 2000;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      transition: all 0.5s ease-out;
+  }
+
+  #menuToggle:hover {
+      transition: all 0.2s ease-in;
+  }
+
+  #menuToggle input
+  {
+      display: block;
+      width: 75px;
+      height: 35px;
+      position: fixed;
+      cursor: pointer;
+
+      opacity: 0; /* hide this */
+      z-index: 2000; /* and place it over the hamburger */
+
+      -webkit-touch-callout: none;
+  }
+
+  #menuToggle div {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1900;
+      margin-top: 5px;
+  }
+
+  /*
+  * Just a quick hamburger
+  */
+  #menuToggle div span
+  {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin-bottom: 5px;
+      position: relative;
+      background: $white;
+      border-radius: 3px;
+
+      -webkit-transform-origin: 4px 0px;
+
+      transform-origin: 4px 0px;
+
+      -webkit-transition: background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      opacity 0.55s ease,
+      -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+      transition: background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      opacity 0.55s ease,
+      -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      opacity 0.55s ease;
+
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+      opacity 0.55s ease,
+      -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+  #menuToggle div span:first-child
+  {
+      -webkit-transform-origin: 0% 0%;
+      transform-origin: 0% 0%;
+  }
+
+  #menuToggle div span:nth-last-child(2)
+  {
+      -webkit-transform-origin: 0% 100%;
+      transform-origin: 0% 100%;
+  }
+
+  /*
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+  #menuToggle input:checked ~ div span
+  {
+      opacity: 1;
+      -webkit-transform: rotate(45deg) translate(-10px, -14px);
+      transform: rotate(45deg) translate(-10px, -14px);
+      /*background: #cdcdcd;*/
+  }
+
+  /*
+  * But let's hide the middle one.
+  */
+  #menuToggle input:checked ~ div span:nth-last-child(3)
+  {
+      opacity: 0;
+      -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+      transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  /*
+  * Ohyeah and the last one should go the other direction
+  */
+  #menuToggle input:checked ~ div span:nth-last-child(2)
+  {
+      -webkit-transform: rotate(-45deg) translate(-1px, 7px);
+      transform: rotate(-45deg) translate(-1px, 7px);
+  }
+
+}
+
